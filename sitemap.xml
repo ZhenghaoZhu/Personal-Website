@@ -3,20 +3,61 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://zhenghaozhu.github.io/projects/project-1/</loc>
-    <lastmod>2019-07-04T00:00:00+00:00</lastmod>
+    <loc>https://zhenghaozhu.github.io/posts/2019/02/how-to-create-a-windows-10-bootable-usb-stick-on-linux/</loc>
+    <lastmod>2019-07-12T17:02:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zhenghaozhu.github.io/projects/</loc>
-    <lastmod>2019-07-04T00:00:00+00:00</lastmod>
+    <loc>https://zhenghaozhu.github.io/posts/</loc>
+    <lastmod>2019-07-12T17:02:40-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhenghaozhu.github.io/tags/</loc>
+    <lastmod>2019-07-12T17:02:40-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://zhenghaozhu.github.io/</loc>
-    <lastmod>2019-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-12T17:02:40-04:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhenghaozhu.github.io/tags/admin/</loc>
+    <lastmod>2019-07-12T17:02:40-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhenghaozhu.github.io/tags/linux/</loc>
+    <lastmod>2019-07-12T17:02:40-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhenghaozhu.github.io/tags/microsoft/</loc>
+    <lastmod>2019-07-12T17:02:40-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhenghaozhu.github.io/tags/system-administration/</loc>
+    <lastmod>2019-07-12T17:02:40-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhenghaozhu.github.io/tags/windows/</loc>
+    <lastmod>2019-07-12T17:02:40-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhenghaozhu.github.io/projects/</loc>
+    <lastmod>2019-07-12T17:02:40-04:00</lastmod>
   </url>
   
   <url>
@@ -26,11 +67,6 @@
   
   <url>
     <loc>https://zhenghaozhu.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhenghaozhu.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   

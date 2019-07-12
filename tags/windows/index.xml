@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>windows on Zhenghao (Kevin) Zhu</title>
+    <link>https://zhenghaozhu.github.io/tags/windows/</link>
+    <description>Recent content in windows on Zhenghao (Kevin) Zhu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Feb 2019 13:35:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://zhenghaozhu.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to create a Windows 10 bootable USB-Stick on Linux</title>
+      <link>https://zhenghaozhu.github.io/posts/2019/02/how-to-create-a-windows-10-bootable-usb-stick-on-linux/</link>
+      <pubDate>Fri, 22 Feb 2019 13:35:00 +0100</pubDate>
+      
+      <guid>https://zhenghaozhu.github.io/posts/2019/02/how-to-create-a-windows-10-bootable-usb-stick-on-linux/</guid>
+      <description>This article is somehow for the own documentation, too &amp;hellip;
+So, how do you create a bootable USB stick under Linux with Windows 10 on it?
+# USB Device DEVICE=/dev/sdX # Delete every bit on it dd if=/dev/zero of=$DEVICE bs=1M count=1 # Create new partition fdisk ${DEVICE} n p 1 ENTER ENTER t c a w # Format and mount mkfs.vfat ${DEVICE}1 mount ${DEVICE}1 /mnt/ # Copy data mkdir Win10 mount -o loop Win10_1709_German_x64.</description>
+    </item>
+    
+  </channel>
+</rss>
