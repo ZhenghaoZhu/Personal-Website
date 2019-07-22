@@ -5,53 +5,19 @@
         <description>Recent content in Posts on Zhenghao (Kevin) Zhu</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 22 Feb 2019 13:35:00 +0100</lastBuildDate>
+        <lastBuildDate>Mon, 22 Jul 2019 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://zhenghaozhu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>How to create a Windows 10 bootable USB-Stick on Linux</title>
-            <link>https://zhenghaozhu.github.io/posts/2019/02/how-to-create-a-windows-10-bootable-usb-stick-on-linux/</link>
-            <pubDate>Fri, 22 Feb 2019 13:35:00 +0100</pubDate>
+            <title>Post-1</title>
+            <link>https://zhenghaozhu.github.io/posts/2019/07/post-1/</link>
+            <pubDate>Mon, 22 Jul 2019 00:00:00 +0000</pubDate>
             
-            <guid>https://zhenghaozhu.github.io/posts/2019/02/how-to-create-a-windows-10-bootable-usb-stick-on-linux/</guid>
-            <description>This article is somehow for the own documentation, too &amp;hellip;
-So, how do you create a bootable USB stick under Linux with Windows 10 on it?
-# USB Device DEVICE=/dev/sdX # Delete every bit on it dd if=/dev/zero of=$DEVICE bs=1M count=1 # Create new partition fdisk ${DEVICE} n p 1 ENTER ENTER t c a w # Format and mount mkfs.vfat ${DEVICE}1 mount ${DEVICE}1 /mnt/ # Copy data mkdir Win10 mount -o loop Win10_1709_German_x64.</description>
-            <content type="html"><![CDATA[<p>This article is somehow for the own documentation, too &hellip;</p>
+            <guid>https://zhenghaozhu.github.io/posts/2019/07/post-1/</guid>
+            <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Tincidunt arcu non sodales neque sodales ut. Amet nisl suscipit adipiscing bibendum est ultricies integer. Sed blandit libero volutpat sed cras. In ornare quam viverra orci sagittis eu volutpat odio. Eros in cursus turpis massa tincidunt dui ut ornare lectus. Volutpat sed cras ornare arcu dui vivamus.</description>
+            <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Tincidunt arcu non sodales neque sodales ut. Amet nisl suscipit adipiscing bibendum est ultricies integer. Sed blandit libero volutpat sed cras. In ornare quam viverra orci sagittis eu volutpat odio. Eros in cursus turpis massa tincidunt dui ut ornare lectus. Volutpat sed cras ornare arcu dui vivamus. Augue eget arcu dictum varius duis at consectetur. Nunc pulvinar sapien et ligula. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus et. Lectus quam id leo in vitae turpis massa. Sed euismod nisi porta lorem.</p>
 
-<p>So, how do you create a bootable USB stick under Linux with Windows 10 on it?</p>
-
-<pre><code class="language-bash"># USB Device
-DEVICE=/dev/sdX
-
-# Delete every bit on it
-dd if=/dev/zero of=$DEVICE bs=1M count=1
-
-# Create new partition
-fdisk ${DEVICE}
-n
-p
-1
-ENTER
-ENTER
-t
-c
-a
-w
-
-# Format and mount
-mkfs.vfat ${DEVICE}1
-mount ${DEVICE}1 /mnt/
-
-# Copy data
-mkdir Win10
-mount -o loop Win10_1709_German_x64.iso Win10
-cp -a Win10/* /mnt/usb
-
-# Unmount
-umount /mnt/
-umount Win10
-</code></pre>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Tincidunt arcu non sodales neque sodales ut. Amet nisl suscipit adipiscing bibendum est ultricies integer. Sed blandit libero volutpat sed cras. In ornare quam viverra orci sagittis eu volutpat odio. Eros in cursus turpis massa tincidunt dui ut ornare lectus. Volutpat sed cras ornare arcu dui vivamus. Augue eget arcu dictum varius duis at consectetur. Nunc pulvinar sapien et ligula. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus et. Lectus quam id leo in vitae turpis massa. Sed euismod nisi porta lorem.</p>
 ]]></content>
         </item>
         

@@ -6,9 +6,55 @@
     <description>Recent content in Tags on Zhenghao (Kevin) Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 22 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://zhenghaozhu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>admin</title>
+      <link>https://zhenghaozhu.github.io/tags/admin/</link>
+      <pubDate>Mon, 22 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhenghaozhu.github.io/tags/admin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://zhenghaozhu.github.io/tags/linux/</link>
+      <pubDate>Mon, 22 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhenghaozhu.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>microsoft</title>
+      <link>https://zhenghaozhu.github.io/tags/microsoft/</link>
+      <pubDate>Mon, 22 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhenghaozhu.github.io/tags/microsoft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>system administration</title>
+      <link>https://zhenghaozhu.github.io/tags/system-administration/</link>
+      <pubDate>Mon, 22 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhenghaozhu.github.io/tags/system-administration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>https://zhenghaozhu.github.io/tags/windows/</link>
+      <pubDate>Mon, 22 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhenghaozhu.github.io/tags/windows/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
