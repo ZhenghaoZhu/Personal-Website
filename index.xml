@@ -6,39 +6,9 @@
     <description>Recent content on Zhenghao (Kevin) Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Feb 2019 13:35:00 +0100</lastBuildDate>
     
 	<atom:link href="https://zhenghaozhu.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>How to create a Windows 10 bootable USB-Stick on Linux</title>
-      <link>https://zhenghaozhu.github.io/posts/2019/02/how-to-create-a-windows-10-bootable-usb-stick-on-linux/</link>
-      <pubDate>Fri, 22 Feb 2019 13:35:00 +0100</pubDate>
-      
-      <guid>https://zhenghaozhu.github.io/posts/2019/02/how-to-create-a-windows-10-bootable-usb-stick-on-linux/</guid>
-      <description>This article is somehow for the own documentation, too &amp;hellip;
-So, how do you create a bootable USB stick under Linux with Windows 10 on it?
-# USB Device DEVICE=/dev/sdX # Delete every bit on it dd if=/dev/zero of=$DEVICE bs=1M count=1 # Create new partition fdisk ${DEVICE} n p 1 ENTER ENTER t c a w # Format and mount mkfs.vfat ${DEVICE}1 mount ${DEVICE}1 /mnt/ # Copy data mkdir Win10 mount -o loop Win10_1709_German_x64.</description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://zhenghaozhu.github.io/projects/</link>
-      <pubDate>Sat, 02 Feb 2019 11:34:00 +0100</pubDate>
-      
-      <guid>https://zhenghaozhu.github.io/projects/</guid>
-      <description>Title Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Tincidunt arcu non sodales neque sodales ut. Amet nisl suscipit adipiscing bibendum est ultricies integer. Sed blandit libero volutpat sed cras. In ornare quam viverra orci sagittis eu volutpat odio. Eros in cursus turpis massa tincidunt dui ut ornare lectus.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://zhenghaozhu.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhenghaozhu.github.io/about/</guid>
-      <description>About Me Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Tincidunt arcu non sodales neque sodales ut. Amet nisl suscipit adipiscing bibendum est ultricies integer. Sed blandit libero volutpat sed cras. In ornare quam viverra orci sagittis eu volutpat odio. Eros in cursus turpis massa tincidunt dui ut ornare lectus.</description>
-    </item>
     
   </channel>
 </rss>
